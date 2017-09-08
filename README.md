@@ -7,7 +7,7 @@
 ```
 $ make
 ```
-
+OR
 ```
 $ docker build -t thermostat-keycloak-builder .
 ```
