@@ -17,7 +17,7 @@ $ docker build -t thermostat-keycloak-builder .
 This builder image expects the source to contain an executable script 'setup-keycloak.sh'.
 
 ```
-s2i build git://github.com/jiekang/thermostat-keycloak thermostat-keycloak-builder thermostat-keycloak
+s2i build git://github.com/thermostat-project/thermostat-keycloak thermostat-keycloak-builder thermostat-keycloak
 ```
 
 ## Run Thermostat Keycloak
